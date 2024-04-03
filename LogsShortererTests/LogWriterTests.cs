@@ -1,6 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using LogsShorterer.Entities;
+using LogsShorterer.Writer;
+using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using Newtonsoft.Json;
 
 namespace LogsShorterer.Tests
 {
@@ -66,7 +69,7 @@ namespace LogsShorterer.Tests
 
             // Assert
             Assert.AreEqual(SplitResult.SHORTER_THAN_MAX, result);
-            writerMock.Verify(wm => wm.Write(It.IsAny<string>()), Times.Once());
+            writerMock.Verify(wm => wm.Write(It.Is<string>(str => JsonConvert.DeserializeObject(str) != null)), Times.Once());
         }
 
         [TestMethod]
@@ -87,7 +90,7 @@ namespace LogsShorterer.Tests
 
             // Assert
             Assert.AreEqual(SplitResult.SPLITTED, result);
-            writerMock.Verify(wm => wm.Write(It.IsAny<string>()), Times.Exactly(3));
+            writerMock.Verify(wm => wm.Write(It.Is<string>(str => JsonConvert.DeserializeObject(str) != null)), Times.Exactly(3));
         }
     }
 }

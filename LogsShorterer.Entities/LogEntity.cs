@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace LogsShorterer
+namespace LogsShorterer.Entities
 {
     public class LogEntity
     {

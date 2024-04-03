@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using LogsShorterer.Entities;
+using LogsShorterer.Writer;
+using Newtonsoft.Json;
 using System.Reflection;
 
 namespace LogsShorterer

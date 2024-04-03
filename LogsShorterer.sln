@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShorterer", "LogsShorte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShortererTests", "LogsShortererTests\LogsShortererTests.csproj", "{3BA15206-CE90-4B57-9AB2-33B9734257EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShorterer.Entities", "LogsShorterer.Entities\LogsShorterer.Entities.csproj", "{A30FA9D4-8CF1-4307-85D1-F5D525027E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShorterer.Writer", "LogsShorterer.Writer\LogsShorterer.Writer.csproj", "{0E73A9DD-8EAC-4D4F-9313-F2253D79F968}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30FA9D4-8CF1-4307-85D1-F5D525027E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30FA9D4-8CF1-4307-85D1-F5D525027E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30FA9D4-8CF1-4307-85D1-F5D525027E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30FA9D4-8CF1-4307-85D1-F5D525027E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E73A9DD-8EAC-4D4F-9313-F2253D79F968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E73A9DD-8EAC-4D4F-9313-F2253D79F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E73A9DD-8EAC-4D4F-9313-F2253D79F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E73A9DD-8EAC-4D4F-9313-F2253D79F968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿namespace LogsShorterer
+﻿using LogsShorterer.Entities;
+
+namespace LogsShorterer
 {
     public interface ILogWriter
     {

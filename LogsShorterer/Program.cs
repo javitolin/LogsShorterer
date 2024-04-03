@@ -1,4 +1,7 @@
-﻿namespace LogsShorterer
+﻿using LogsShorterer.Entities;
+using LogsShorterer.Writer;
+
+namespace LogsShorterer
 {
     internal class Program
     {
@@ -16,7 +19,7 @@
                 }
             };
 
-            IWriter writer = new ConsoleWriter();
+            IWriter writer = new ConsoleLengthWriter();
             ILogWriter logWriter = new LogWriter(writer, new string[] { "Level", "Message" });
             logWriter.PrintLogEntity(logEntity, 80);
         }
