@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShorterer", "LogsShorterer\LogsShorterer.csproj", "{BBFEF8B3-840F-413A-883C-24CF8A91DBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsShortererTests", "LogsShortererTests\LogsShortererTests.csproj", "{3BA15206-CE90-4B57-9AB2-33B9734257EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFEF8B3-840F-413A-883C-24CF8A91DBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFEF8B3-840F-413A-883C-24CF8A91DBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFEF8B3-840F-413A-883C-24CF8A91DBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFEF8B3-840F-413A-883C-24CF8A91DBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA15206-CE90-4B57-9AB2-33B9734257EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77416345-9A00-4DB3-9507-5CB1AF367FBA}
+	EndGlobalSection
+EndGlobal
